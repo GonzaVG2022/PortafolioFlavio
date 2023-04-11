@@ -74,6 +74,7 @@ textarea{
     font-size: var(--normal-font-size);
 }
 
+
 body{
     background-color: var(--body-color);
     color:var(--text-color);
@@ -966,7 +967,7 @@ body.light-theme{
 
 /* BreakPoints*/ 
 /* For small devices */
-@media screen and (max-width: 320px){
+@media screen and (max-width: 576px){
     .nav__menu{
         padding: 1rem 1.5rem;
     }
@@ -977,11 +978,13 @@ body.light-theme{
 
     .home_handle{
         width: 150px;
-        height: 253px;
+        height: auto;
     }
 
     .home_img{
         width: 130px;
+        height: 130px;
+        /* background-color: red; */
     }
 
     .about_info{
@@ -1033,6 +1036,16 @@ body.light-theme{
 
     .skills_content{
         padding: 2rem 4rem;
+    }
+    .home_handle{
+        width: 150px;
+        height: auto;
+    }
+
+    .home_img{
+        width: 130px;
+        height: 130px;
+        /* background-color: red; */
     }
 
     .services_container{
@@ -1115,6 +1128,8 @@ body.light-theme{
 
     .home_img{
         width: 260px;
+        height: 320px;
+       
     }
 
     .home_social-link{
