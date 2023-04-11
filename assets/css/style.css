@@ -432,12 +432,17 @@ body.light-theme{
 /* About */
 .about_container{
     row-gap: 2.5rem;
+    /* height: 500px;
+    width: 100%; */
+    /* background-color: red; */
 }
 
 .about_img{
-    width: 220px;
+    width: 350px;
     border-radius: 1.5rem;
     justify-self: center;
+    /* background-color: red; */
+    
 }
 
 .about_data{
@@ -971,19 +976,24 @@ body.light-theme{
     .nav__menu{
         padding: 1rem 1.5rem;
     }
-
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        /* background-color: red; */
+        width: 100%;
+    }
     .home_buttons{
         flex-direction: column;
     }
 
     .home_handle{
-        width: 150px;
+        width: 250px;
         height: auto;
     }
 
     .home_img{
-        width: 130px;
-        height: 130px;
+        width: 230px;
+        height: auto;
         /* background-color: red; */
     }
 
@@ -1020,7 +1030,18 @@ body.light-theme{
         right: 0;
         margin: 0 auto;
     }
-
+    .skills> .container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        /* background-color: red; */
+    }
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        
+        /* background-color: red; */
+    }
     .about_info{
         grid-template-columns: repeat(3, 140px);
         justify-content: center;
@@ -1038,13 +1059,13 @@ body.light-theme{
         padding: 2rem 4rem;
     }
     .home_handle{
-        width: 150px;
+        width: 250px;
         height: auto;
     }
 
     .home_img{
-        width: 130px;
-        height: 130px;
+        width: 230px;
+        height: auto;
         /* background-color: red; */
     }
 
@@ -1102,6 +1123,12 @@ body.light-theme{
     .container{
         margin-left: auto;
         margin-right: auto;
+        
+    }
+    .skills> .container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
     }
 
     .section{
@@ -1151,9 +1178,9 @@ body.light-theme{
         column-gap: 4rem;
     }
 
-    .about_img{
-        width: 350px;
-    }
+    /* .about_img{
+        width: 550px;
+    } */
 
     .about_data{
         text-align: initial;
